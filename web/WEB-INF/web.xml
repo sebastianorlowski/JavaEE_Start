@@ -8,10 +8,20 @@
     
     <servlet>
         <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>pl.orlowskisebastian.HelloWorldServlet</servlet-class>
+        <servlet-class>pl.orlowskisebastian.javaeehelloworld.HelloWorldServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Picture</servlet-name>
+        <servlet-class>pl.orlowskisebastian.javaeehelloworld.DownloadPicture</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Picture</servlet-name>
+        <url-pattern>/picture</url-pattern>
+    </servlet-mapping>
+
 </web-app>
