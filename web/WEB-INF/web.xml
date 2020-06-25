@@ -22,6 +22,15 @@
         <url-pattern>/picture</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Users List</servlet-name>
+        <servlet-class>pl.orlowskisebastian.javaeehelloworld.UsersList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Users List</servlet-name>
+        <url-pattern>/users</url-pattern>
+    </servlet-mapping>
+
     <listener>
         <listener-class>pl.orlowskisebastian.javaeehelloworld.ContextListener</listener-class>
     </listener>
